@@ -1,4 +1,4 @@
-# RBIR
+# RBIR [![](https://img.shields.io/discord/1283371436773212212?logo=discord&label=discord)](https://discord.gg/SshxvYpn)
 
 `RBIR` stands for **Rewrite Bigdata in Rust**. RBIR aims to create a big data ecosystem using Rust.
 
