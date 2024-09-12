@@ -32,7 +32,6 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 - [parquet-rs](https://github.com/apache/arrow-rs/tree/master/parquet): Rust implementation of [Apache Parquet](https://parquet.apache.org/).
 - [avro-rust](https://github.com/apache/avro/tree/main/lang/rust): Rust implementation of [Apache Avro](https://avro.apache.org/).
 - [orc-rs](https://github.com/datafusion-contrib/datafusion-orc): Rust implementation of [Apache ORC](https://orc.apache.org/).
-- [ceph-rust](https://github.com/ceph/ceph-rust): Rust binding to Ceph.
 
 ### New integrations
 
