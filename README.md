@@ -39,6 +39,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 - Iceberg is now working on [building rust core for pyiceberg](https://github.com/apache/iceberg-rust/pull/518).
 - Paimon is going to [build paimon-py by its rust core](https://lists.apache.org/thread/q3zxcomfq441t6o8y8dslos1qvb984j0).
 - [Apache DataFusion Comet](https://github.com/apache/datafusion-comet) is a high-performance accelerator for Apache Spark.
+- [blaze](https://github.com/kwai/blaze): The Blaze accelerator for [Apache Spark](https://spark.apache.org/) leverages native vectorized execution to accelerate query processing.
 
 ## Blog
 
