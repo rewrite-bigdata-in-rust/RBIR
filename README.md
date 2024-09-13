@@ -15,7 +15,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 - [Apache DataFusion](https://github.com/apache/datafusion): a fast, extensible query engine built in rust.
 - [influxdb](https://github.com/influxdata/influxdb): scalable datastore for metrics, events, and real-time analytics.
 - [greptimedb](https://github.com/GreptimeTeam/greptimedb): time series database for metrics, logs and events.
-- [horaedb](https://github.com/apache/horaedb): a high-performance, distributed, cloud native time-series database.
+- [Apache HoraeDB (incubating)](https://github.com/apache/horaedb): a high-performance, distributed, cloud native time-series database.
 - [paradedb](https://github.com/paradedb/paradedb): Postgres for Search and Analytics
 - [glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data
 - [fluvio](https://github.com/infinyon/fluvio): Lean and mean distributed stream processing system
@@ -36,8 +36,8 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 ### New integrations
 
 - [Apache OpenDAL](https://github.com/apache/opendal) provides python, nodejs, java, go bindings.
-- Iceberg is now working on [building rust core for pyiceberg](https://github.com/apache/iceberg-rust/pull/518).
-- Paimon is going to [build paimon-py by its rust core](https://lists.apache.org/thread/q3zxcomfq441t6o8y8dslos1qvb984j0).
+- Apache Iceberg is now working on [building rust core for pyiceberg](https://github.com/apache/iceberg-rust/pull/518).
+- Apache Paimon is going to [build paimon-py by its rust core](https://lists.apache.org/thread/q3zxcomfq441t6o8y8dslos1qvb984j0).
 - [Apache DataFusion Comet](https://github.com/apache/datafusion-comet) is a high-performance accelerator for Apache Spark.
 - [blaze](https://github.com/kwai/blaze): The Blaze accelerator for [Apache Spark](https://spark.apache.org/) leverages native vectorized execution to accelerate query processing.
 
