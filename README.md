@@ -22,6 +22,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 - [lancedb](https://github.com/lancedb/lancedb): Developer-friendly, database for multimodal AI
 - [slatedb](https://github.com/slatedb/slatedb): A cloud native embedded storage engine built on object storage
 - [daft](https://github.com/Eventual-Inc/Daft): Distributed DataFrame for Python designed for the cloud, powered by Rust
+- [arroyo](https://github.com/ArroyoSystems/arroyo): Distributed stream processing engine designed to perform stateful computations on data
 
 ### New implementations
 
