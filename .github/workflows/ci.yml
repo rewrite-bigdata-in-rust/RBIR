@@ -28,8 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test
+      - name: Unit
         run: cargo test --all-targets
+        env:
+          RUST_LOG: DEBUG
+          RUST_BACKTRACE: full
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: cargo run
         env:
           RUST_LOG: DEBUG
           RUST_BACKTRACE: full
