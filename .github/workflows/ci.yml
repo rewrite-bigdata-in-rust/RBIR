@@ -45,3 +45,4 @@ jobs:
         env:
           RUST_LOG: DEBUG
           RUST_BACKTRACE: full
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
