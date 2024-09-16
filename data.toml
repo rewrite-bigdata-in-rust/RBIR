@@ -1,0 +1,138 @@
+# Projects Section  ===========================================================
+
+[[project]]
+description = "Distributed transactional key-value database, originally created to complement [TiDB](https://github.com/pingcap/tidb/)"
+name = "TiKV"
+repo = "https://github.com/tikv/tikv"
+
+[[project]]
+description = "An open-source cloud data warehouse that serves as a cost-effective alternative to [Snowflake](https://www.snowflake.com/)"
+name = "Databend"
+repo = "https://github.com/datafuselabs/databend"
+
+[[project]]
+description = "Cloud-native search engine for observability. An open-source alternative to [Datadog](https://www.datadoghq.com/), [Elasticsearch](https://www.elastic.co/elasticsearch), [Loki](https://github.com/grafana/loki), and [Tempo](https://github.com/grafana/tempo)"
+name = "Quickwit"
+repo = "https://github.com/quickwit-oss/quickwit"
+
+[[project]]
+description = "A Postgres-compatible SQL database engineered to provide the simplest and most cost-efficient approach for processing, analyzing, and managing real-time event streaming data"
+name = "RisingWave"
+repo = "https://github.com/risingwavelabs/risingwave"
+
+
+[[project]]
+description = "The leading open source time series database for metrics, events, and real-time analytics."
+name = "influxdb"
+repo = "https://github.com/influxdata/influxdb"
+
+[[project]]
+description = "An open-source, cloud-native, unified time series database for metrics, logs and events with SQL/PromQL supported."
+name = "GreptimeDB"
+repo = "https://github.com/GreptimeTeam/greptimedb"
+
+[[project]]
+description = "A high-performance, distributed, cloud native time-series database."
+name = "Apache HoraeDB (incubating)"
+repo = "https://github.com/apache/horaedb"
+
+[[project]]
+description = "An Elasticsearch alternative built on Postgres."
+name = "ParadeDB"
+repo = "https://github.com/paradedb/paradedb"
+
+[[project]]
+description = "An analytics DBMS for distributed data."
+name = "GlareDB"
+repo = "https://github.com/GlareDB/glaredb"
+
+[[project]]
+description = "Lean and mean distributed stream processing system written in rust and web assembly. Alternative to [Kafka](https://github.com/apache/kafka) + [Flink](https://github.com/apache/flink) in one."
+name = "Fluvio"
+repo = "https://github.com/infinyon/fluvio"
+
+[[project]]
+description = "An open-source database for vector-search built with persistent storage, which greatly simplifies retrieval, filtering and management of embeddings."
+name = "LanceDB"
+repo = "https://github.com/lancedb/lancedb"
+
+[[project]]
+description = "A cloud native embedded storage engine built on object storage."
+name = "SlateDB"
+repo = "https://github.com/slatedb/slatedb"
+
+[[project]]
+description = "A distributed query engine for large-scale data processing in Python and is implemented in Rust."
+name = "Daft"
+repo = "https://github.com/Eventual-Inc/Daft"
+
+[[project]]
+description = "A distributed stream processing engine written in Rust, designed to efficiently perform stateful computations on streams of data."
+name = "Arroyo"
+repo = "https://github.com/ArroyoSystems/arroyo"
+
+[[project]]
+description = "A high-performance accelerator for [Apache Spark](https://spark.apache.org/), built on top of the powerful [Apache DataFusion](https://github.com/apache/datafusion) query engine."
+name = "Apache DataFusion Comet"
+repo = "https://github.com/apache/datafusion-comet"
+
+[[project]]
+description = "The Blaze accelerator for Apache Spark leverages native vectorized execution to accelerate query processing."
+name = "BLAZE"
+repo = "https://github.com/kwai/blaze"
+
+# Libraries Section ===========================================================
+
+[[library]]
+description = "A unified data access layer, empowering users to seamlessly and efficiently retrieve data from diverse storage services."
+name = "Apache OpenDAL"
+repo = "https://github.com/apache/opendal"
+
+[[library]]
+description = "An extensible query engine written in Rust that uses [Apache Arrow](https://github.com/apache/arrow) as its in-memory format."
+name = "Apache DataFusion"
+repo = "https://github.com/apache/datafusion"
+
+[[library]]
+description = "Native Rust implementation of [Apache Arrow](https://github.com/apache/arrow)"
+name = "Apache Arrow Rust"
+repo = "https://github.com/apache/arrow-rs"
+
+[[library]]
+description = "Rust implementation of [Apache Iceberg](https://iceberg.apache.org/)"
+name = "Apache Iceberg Rust"
+repo = "https://github.com/apache/iceberg-rust/"
+
+[[library]]
+description = "Rust implementation of [Apache Paimon](https://paimon.apache.org/)"
+name = "Apache Paimon Rust"
+repo = "https://github.com/apache/paimon-rust"
+
+[[library]]
+description = "Rust implementation of [Apache Hudi](https://hudi.apache.org/)"
+name = "Apache Hudi Rust"
+repo = "https://github.com/apache/hudi-rs"
+
+[[library]]
+description = "Rust implementation of [Apache Parquet](https://parquet.apache.org/)"
+name = "Apache Parquet Rust"
+path = "/parquet"
+repo = "https://github.com/apache/arrow-rs"
+
+[[library]]
+description = "Rust implementation of [Apache Avro](https://avro.apache.org/)"
+name = "Apache Avro Rust"
+path = "/lang/rust"
+repo = "https://github.com/apache/avro"
+
+[[library]]
+description = "Rust implementation of [Apache ORC](https://orc.apache.org/)"
+name = "Apache Orc Rust"
+repo = "https://github.com/datafusion-contrib/datafusion-orc"
+
+# Posts Section ===============================================================
+
+[[post]]
+author = "[@Xuanwo](https://github.com/Xuanwo)"
+link = "https://xuanwo.io/2024/07-rewrite-bigdata-in-rust/"
+title = "Rewrite Bigdata in Rust"
