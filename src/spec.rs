@@ -1,10 +1,10 @@
 use anyhow::Result;
 use serde::{Deserialize, Serialize};
-use std::fs::read_to_string;
+use tokio::fs::read_to_string;
 
 /// Load data from `data.toml`.
-pub fn load() -> Result<Data> {
-    let content = read_to_string("data.toml")?;
+pub async fn load() -> Result<Data> {
+    let content = read_to_string("data.toml").await?;
     let mut data: Data = toml::from_str(&content)?;
 
     // Sort data for better display.

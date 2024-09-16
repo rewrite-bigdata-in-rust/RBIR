@@ -1,0 +1,13 @@
+# {{ name }}
+
+{{ description }}
+
+{%- if status.license %}
+- License: [{{ status.license.name }}](https://spdx.org/licenses/{{ status.license.spdx_id }}.html)
+{% endif %}
+- [Contributors]({{ repo }}/graphs/contributors)
+- [Open Issues]({{ repo }}/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
+- [Open Pull Requests]({{ repo }}/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
+{%- if status.latest_release %}
+- Latest Release: [{{ status.latest_release.tag_name }}]({{status.latest_release.html_url}}) at {{ status.latest_release.published_at }}
+{% endif %}
