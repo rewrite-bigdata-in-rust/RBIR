@@ -13,7 +13,7 @@ pub async fn render(data: Data) -> Result<()> {
     let github = Octocrab::builder().personal_token(token).build()?;
 
     let mut tera = Tera::new("templates/*.tmpl")?;
-    tera.register_filter("to_snack_case", utils::to_snack_case_filter);
+    tera.register_filter("to_snake_case", utils::to_snake_case_filter);
 
     render_readme(&tera, &data).await?;
     render_projects(&github, &tera, &data).await?;
@@ -45,7 +45,7 @@ async fn render_project(github: &Octocrab, tera: &Tera, project: &Project) -> Re
 
     let content = tera.render("project.tmpl", &context)?;
     write(
-        format!("projects/{}.md", utils::to_snack_case(&project.name)),
+        format!("projects/{}.md", utils::to_snake_case(&project.name)),
         content.as_bytes(),
     )
     .await?;
@@ -67,7 +67,7 @@ async fn render_library(github: &Octocrab, tera: &Tera, library: &Library) -> Re
 
     let content = tera.render("library.tmpl", &context)?;
     write(
-        format!("libraries/{}.md", utils::to_snack_case(&library.name)),
+        format!("libraries/{}.md", utils::to_snake_case(&library.name)),
         content.as_bytes(),
     )
     .await?;
