@@ -1,0 +1,15 @@
+[package]
+description = "RBIR stands for Rewrite Bigdata in Rust. RBIR aims to create a big data ecosystem using Rust."
+edition = "2021"
+license = "Apache-2.0"
+name = "rbir"
+version = "0.0.0"
+
+[dependencies]
+anyhow = "1.0.89"
+serde = { version = "1", features = ["derive"] }
+tera = "1.20.0"
+toml = "0.8"
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"

@@ -1,0 +1,27 @@
+# RBIR [![](https://img.shields.io/discord/1283371436773212212?logo=discord&label=discord)](https://discord.gg/SshxvYpn)
+
+`RBIR` stands for **Rewrite Bigdata in Rust**. RBIR aims to create a big data ecosystem using Rust.
+
+This project declares our manifesto and serves as a collection of RBIR projects and posts for anyone interested in joining this journey.
+
+## Projects
+
+| Name | Description |
+| - | - |
+{% for v in project -%}
+| [{{ v.name }}]({{ v.repo }}) | {{ v.description }} |
+{% endfor %}
+
+## Libraries
+
+| Name | Description |
+| - | - |
+{% for v in library -%}
+| [{{ v.name }}]({{ v.repo }}) | {{ v.description }} |
+{% endfor %}
+
+## Posts
+
+{% for v in post -%}
+- [{{ v.title }}]({{ v.link }}) by {{ v.author }}
+{% endfor %}
