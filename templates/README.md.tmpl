@@ -6,18 +6,14 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 
 ## Projects
 
-| Name | Description |
-| - | - |
 {% for v in project -%}
-| [{{ v.name }}]({{ v.repo }}) | {{ v.description }} |
+- [{{ v.name }}]({{ v.repo }}): {{ v.description }}
 {% endfor %}
 
 ## Libraries
 
-| Name | Description |
-| - | - |
 {% for v in library -%}
-| [{{ v.name }}]({{ v.repo }}) | {{ v.description }} |
+- [{{ v.name }}]({{ v.repo }}): {{ v.description }}
 {% endfor %}
 
 ## Posts
