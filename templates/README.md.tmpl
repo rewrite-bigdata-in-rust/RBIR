@@ -7,13 +7,15 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 ## Projects
 
 {% for v in project -%}
-- [{{ v.name }}]({{ v.repo }}): {{ v.description }}
+- [{{ v.name }}]({{ v.repo }}) [ [good-first-issue]({{ v.repo }}/contribute) ]
+  > {{ v.description }}
 {% endfor %}
 
 ## Libraries
 
 {% for v in library -%}
-- [{{ v.name }}]({{ v.repo }}): {{ v.description }}
+- [{{ v.name }}]({{ v.repo }}) [ [good-first-issue]({{ v.repo }}/contribute) ]
+  > {{ v.description }}
 {% endfor %}
 
 ## Posts
