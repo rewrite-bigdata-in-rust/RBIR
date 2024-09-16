@@ -27,6 +27,5 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
-          add: "README.md"
           author_name: "RBIR Bot"
           author_email: "bot@rbir.dev"
