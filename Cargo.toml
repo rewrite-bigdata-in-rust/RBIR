@@ -7,8 +7,10 @@ version = "0.0.0"
 
 [dependencies]
 anyhow = "1.0.89"
+octocrab = "0.39.0"
 serde = { version = "1", features = ["derive"] }
 tera = "1.20.0"
+tokio = { version = "1.40.0", features = ["rt", "rt-multi-thread", "macros", "fs"] }
 toml = "0.8"
 
 [dev-dependencies]
