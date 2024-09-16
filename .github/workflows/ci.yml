@@ -39,7 +39,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Test
-        run: cargo run
+        run: |
+          cargo run
+          git diff
         env:
           RUST_LOG: DEBUG
           RUST_BACKTRACE: full
