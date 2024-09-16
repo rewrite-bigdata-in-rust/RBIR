@@ -7,7 +7,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 ## Projects
 
 {% for v in project -%}
-- [{{ v.name }}](./projects/{{ v.name | to_snack_case }}.md): [repo]({{ v.repo }}) | [good-first-issue]({{ v.repo }}/contribute)
+- [{{ v.name }}](./projects/{{ v.name | to_snack_case }}.md) [![github-repo](https://img.shields.io/badge/open-repo-blue)]({{ v.repo }}) [![start-contribute](https://img.shields.io/badge/start-contribute-blue)]({{ v.repo }}/contribute)
 
   {{ v.description }}
 {% endfor %}
@@ -15,7 +15,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 ## Libraries
 
 {% for v in library -%}
-- [{{ v.name }}](./libraries/{{ v.name | to_snack_case }}.md): [repo]({{ v.repo }}) | [good-first-issue]({{ v.repo }}/contribute)
+- [{{ v.name }}](./libraries/{{ v.name | to_snack_case }}.md) [![github-repo](https://img.shields.io/badge/open-repo-blue)]({{ v.repo }}) [![start-contribute](https://img.shields.io/badge/start-contribute-blue)]({{ v.repo }}/contribute)
 
   {{ v.description }}
 {% endfor %}
