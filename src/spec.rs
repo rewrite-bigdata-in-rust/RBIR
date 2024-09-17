@@ -79,14 +79,14 @@ title = "Rewrite Bigdata in Rust"
                 Project{
                     description:"RBIR stands for Rewrite Bigdata in Rust. RBIR aims to create a big data ecosystem using Rust.".to_string(),
                     name:"RBIR".to_string(),
-                    repo:"https://github.com/rewrite-bigdata-in-rust/RBIR".to_string()
+                    repo:"https://github.com/rewrite-bigdata-in-rust/RBIR".to_string(),
                 }],
             library: vec![
                 Library{
                     description: "A unified data access layer, empowering users to seamlessly and efficiently retrieve data from diverse storage services.".to_string(),
                     name:"Apache OpenDAL".to_string(),
                     repo:"https://github.com/apache/opendal".to_string(),
-                    path: None
+                    path: None,
                 }],
             post:vec![Post {
                 author:"[@Xuanwo](https://github.com/Xuanwo)".to_string(),

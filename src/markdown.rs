@@ -78,6 +78,7 @@ async fn render_library(github: &Octocrab, tera: &Tera, library: &Library) -> Re
 struct RepoStatus {
     license: Option<License>,
     latest_release: Option<Release>,
+    stars: Option<u32>,
 }
 
 async fn fetch_repo_status(github: &Octocrab, repo: &str) -> Result<RepoStatus> {
@@ -97,5 +98,6 @@ async fn fetch_repo_status(github: &Octocrab, repo: &str) -> Result<RepoStatus> 
     Ok(RepoStatus {
         license,
         latest_release,
+        stars: repo.stargazers_count,
     })
 }
