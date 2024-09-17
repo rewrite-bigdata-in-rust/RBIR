@@ -11,3 +11,6 @@
 {%- if status.latest_release %}
 - Latest Release: [{{ status.latest_release.tag_name }}]({{status.latest_release.html_url}}) at {{ status.latest_release.published_at }}
 {% endif %}
+{%- if status.stars %}
+- Stars: [{{ status.stars }}]({{ repo }}/stargazers)
+{% endif %}

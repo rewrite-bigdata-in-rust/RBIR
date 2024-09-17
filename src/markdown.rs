@@ -14,7 +14,6 @@ pub async fn render(data: Data) -> Result<()> {
 
     let mut tera = Tera::new("templates/*.tmpl")?;
     tera.register_filter("to_snake_case", utils::to_snake_case_filter);
-    tera.register_filter("stars_url", utils::stars_url_filter);
 
     render_readme(&tera, &data).await?;
     render_projects(&github, &tera, &data).await?;
@@ -79,6 +78,7 @@ async fn render_library(github: &Octocrab, tera: &Tera, library: &Library) -> Re
 struct RepoStatus {
     license: Option<License>,
     latest_release: Option<Release>,
+    stars: Option<u32>,
 }
 
 async fn fetch_repo_status(github: &Octocrab, repo: &str) -> Result<RepoStatus> {
@@ -98,5 +98,6 @@ async fn fetch_repo_status(github: &Octocrab, repo: &str) -> Result<RepoStatus> 
     Ok(RepoStatus {
         license,
         latest_release,
+        stars: repo.stargazers_count,
     })
 }
