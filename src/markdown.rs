@@ -1,8 +1,7 @@
-use std::sync::Arc;
-
 use crate::spec::{Data, Library, Project};
 use crate::utils;
 use anyhow::{anyhow, Result};
+use futures::stream::{futures_unordered::FuturesUnordered, StreamExt};
 use octocrab::models::repos::Release;
 use octocrab::models::License;
 use octocrab::Octocrab;
@@ -17,34 +16,9 @@ pub async fn render(data: Data) -> Result<()> {
     let mut tera = Tera::new("templates/*.tmpl")?;
     tera.register_filter("to_snake_case", utils::to_snake_case_filter);
 
-    let data = Arc::new(data);
-    let tera = Arc::new(tera);
-    let github = Arc::new(github);
-
-    let readme_task = {
-        let tera = tera.clone();
-        let data = data.clone();
-        tokio::spawn(async move { render_readme(&tera, &data).await })
-    };
-    let projects_task = {
-        let github = github.clone();
-        let tera = tera.clone();
-        let data = data.clone();
-        tokio::spawn(async move { render_projects(github, tera, data).await })
-    };
-    let libraries_task = {
-        let github = github.clone();
-        let tera = tera.clone();
-        let data = data.clone();
-        tokio::spawn(async move { render_libraries(github, tera, data).await })
-    };
-
-    let (readme_res, projects_res, libraries_res) =
-        tokio::join!(readme_task, projects_task, libraries_task);
-
-    readme_res??;
-    projects_res??;
-    libraries_res??;
+    render_readme(&tera, &data).await?;
+    render_projects(&github, &tera, &data).await?;
+    render_libraries(&github, &tera, &data).await?;
 
     Ok(())
 }
@@ -57,20 +31,15 @@ async fn render_readme(tera: &Tera, data: &Data) -> Result<()> {
     Ok(())
 }
 
-async fn render_projects(github: Arc<Octocrab>, tera: Arc<Tera>, data: Arc<Data>) -> Result<()> {
-    let mut tasks = Vec::new();
-    let data = data.clone();
+async fn render_projects(github: &Octocrab, tera: &Tera, data: &Data) -> Result<()> {
+    let mut tasks: FuturesUnordered<_> = data
+        .project
+        .iter()
+        .map(|project| render_project(github, tera, project))
+        .collect();
 
-    for project in &data.project {
-        let project = project.clone();
-        let github = github.clone();
-        let tera = tera.clone();
-        let task = tokio::spawn(async move { render_project(&github, &tera, &project).await });
-        tasks.push(task);
-    }
-
-    for task in tasks {
-        task.await??;
+    while let Some(result) = tasks.next().await {
+        result?;
     }
 
     Ok(())
@@ -91,20 +60,15 @@ async fn render_project(github: &Octocrab, tera: &Tera, project: &Project) -> Re
     Ok(())
 }
 
-async fn render_libraries(github: Arc<Octocrab>, tera: Arc<Tera>, data: Arc<Data>) -> Result<()> {
-    let mut tasks = Vec::new();
-    let data = data.clone();
+async fn render_libraries(github: &Octocrab, tera: &Tera, data: &Data) -> Result<()> {
+    let mut tasks: FuturesUnordered<_> = data
+        .library
+        .iter()
+        .map(|library| render_library(github, tera, library))
+        .collect();
 
-    for library in &data.library {
-        let library = library.clone();
-        let github = github.clone();
-        let tera = tera.clone();
-        let task = tokio::spawn(async move { render_library(&github, &tera, &library).await });
-        tasks.push(task);
-    }
-
-    for task in tasks {
-        task.await??;
+    while let Some(result) = tasks.next().await {
+        result?;
     }
 
     Ok(())

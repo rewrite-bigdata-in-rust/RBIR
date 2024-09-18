@@ -1050,6 +1050,7 @@ name = "rbir"
 version = "0.0.0"
 dependencies = [
  "anyhow",
+ "futures",
  "octocrab",
  "pretty_assertions",
  "serde",
