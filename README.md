@@ -54,7 +54,9 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 - [influxdb](./projects/influxdb.md) [![github-repo](https://img.shields.io/badge/open-repo-blue)](https://github.com/influxdata/influxdb) [![start-contribute](https://img.shields.io/badge/start-contribute-blue)](https://github.com/influxdata/influxdb/contribute)
 
   The leading open source time series database for metrics, events, and real-time analytics.
+- [Apache DataFusion Ballista](./projects/apache_datafusion-ballista.md) [![github-repo](https://img.shields.io/badge/open-repo-blue)](https://github.com/apache/datafusion-ballista) [![start-contribute](https://img.shields.io/badge/start-contribute-blue)](https://github.com/apache/datafusion-ballista/contribute)
 
+Apache DataFusion Ballista Distributed Query Engine
 
 ## Libraries
 
