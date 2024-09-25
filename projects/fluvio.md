@@ -8,5 +8,5 @@ Lean and mean distributed stream processing system written in rust and web assem
 - [Open Pull Requests](https://github.com/infinyon/fluvio/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v0.11.12](https://github.com/infinyon/fluvio/releases/tag/v0.11.12) at 2024-09-14T03:18:27Z
 
-- Stars: [3778](https://github.com/infinyon/fluvio/stargazers)
+- Stars: [3779](https://github.com/infinyon/fluvio/stargazers)
 
