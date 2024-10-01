@@ -1,6 +1,7 @@
 use crate::spec::{Data, Library, Project};
 use crate::utils;
 use anyhow::{anyhow, Result};
+use futures::stream::{futures_unordered::FuturesUnordered, StreamExt};
 use octocrab::models::repos::Release;
 use octocrab::models::License;
 use octocrab::Octocrab;
@@ -31,9 +32,16 @@ async fn render_readme(tera: &Tera, data: &Data) -> Result<()> {
 }
 
 async fn render_projects(github: &Octocrab, tera: &Tera, data: &Data) -> Result<()> {
-    for project in &data.project {
-        render_project(github, tera, project).await?;
+    let mut tasks: FuturesUnordered<_> = data
+        .project
+        .iter()
+        .map(|project| render_project(github, tera, project))
+        .collect();
+
+    while let Some(result) = tasks.next().await {
+        result?;
     }
+
     Ok(())
 }
 
@@ -53,9 +61,16 @@ async fn render_project(github: &Octocrab, tera: &Tera, project: &Project) -> Re
 }
 
 async fn render_libraries(github: &Octocrab, tera: &Tera, data: &Data) -> Result<()> {
-    for library in &data.library {
-        render_library(github, tera, library).await?;
+    let mut tasks: FuturesUnordered<_> = data
+        .library
+        .iter()
+        .map(|library| render_library(github, tera, library))
+        .collect();
+
+    while let Some(result) = tasks.next().await {
+        result?;
     }
+
     Ok(())
 }
 
