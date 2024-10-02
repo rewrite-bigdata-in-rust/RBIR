@@ -5,7 +5,7 @@ Rust implementation of [Apache ORC](https://orc.apache.org/)
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
 - Latest Release: [v0.3.1](https://github.com/datafusion-contrib/datafusion-orc/releases/tag/v0.3.1) at 2024-07-01T14:17:22Z
-- Stars: [40](https://github.com/datafusion-contrib/datafusion-orc/stargazers)
+- Stars: [41](https://github.com/datafusion-contrib/datafusion-orc/stargazers)
 
 
 - [Contributors](https://github.com/datafusion-contrib/datafusion-orc/graphs/contributors)
