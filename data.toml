@@ -22,7 +22,7 @@ repo = "https://github.com/risingwavelabs/risingwave"
 
 
 [[project]]
-description = "The leading open source time series database for metrics, events, and real-time analytics."
+description = "Open source time series database for metrics, events, and real-time analytics."
 name = "influxdb"
 repo = "https://github.com/influxdata/influxdb"
 
