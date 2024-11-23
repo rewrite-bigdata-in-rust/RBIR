@@ -8,5 +8,5 @@ The leading open source time series database for metrics, events, and real-time 
 - [Open Pull Requests](https://github.com/influxdata/influxdb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v2.7.10](https://github.com/influxdata/influxdb/releases/tag/v2.7.10) at 2024-08-16T21:26:10Z
 
-- Stars: [28997](https://github.com/influxdata/influxdb/stargazers)
+- Stars: [29001](https://github.com/influxdata/influxdb/stargazers)
 
