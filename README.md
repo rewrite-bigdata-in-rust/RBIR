@@ -53,7 +53,7 @@ This project declares our manifesto and serves as a collection of RBIR projects 
   Distributed transactional key-value database, originally created to complement [TiDB](https://github.com/pingcap/tidb/)
 - [influxdb](./projects/influxdb.md) [![github-repo](https://img.shields.io/badge/open-repo-blue)](https://github.com/influxdata/influxdb) [![start-contribute](https://img.shields.io/badge/start-contribute-blue)](https://github.com/influxdata/influxdb/contribute)
 
-  The leading open source time series database for metrics, events, and real-time analytics.
+  Open source time series database for metrics, events, and real-time analytics.
 
 
 ## Libraries
@@ -90,34 +90,4 @@ This project declares our manifesto and serves as a collection of RBIR projects 
 ## Posts
 
 - [Rewrite Bigdata in Rust](https://xuanwo.io/2024/07-rewrite-bigdata-in-rust/) by [@Xuanwo](https://github.com/Xuanwo)
-
-## Adding new projects
-
-If you want to add a new project or library to the RBIR ecosystem, please open a pull request!
-
-### What sorts of projects are welcome?
-
-Because one of the goals of this repository is to help attract new contributors to the RBIR ecosystem, we welcome the addition of any projects/libraries that are related to rewriting big data in Rust 🦀. All we ask is that the project or library is open source, has a public repository, and that the description does not contain any superlatives, like "leading", "best", "fastest", etc.
-
-### Example project template
-
-In your PR, all you have to do is update the `data.toml` file in this repository with the new project or library's information.
-
-To add a new Rust project:
-
-```toml
-[[project]]
-description = "A collection of RBIR projects and posts for anyone interested in joining this journey."
-name = "RBIR"
-repo = "https://github.com/rewrite-bigdata-in-rust/RBIR"
-```
-
-To add a new Rust library:
-
-```toml
-[[library]]
-description = "A collection of RBIR projects and posts for anyone interested in joining this journey."
-name = "RBIR"
-repo = "https://github.com/rewrite-bigdata-in-rust/RBIR"
-```
 
