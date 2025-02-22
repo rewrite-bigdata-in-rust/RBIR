@@ -4,7 +4,7 @@ Rust implementation of [Apache Paimon](https://paimon.apache.org/)
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Stars: [110](https://github.com/apache/paimon-rust/stargazers)
+- Stars: [111](https://github.com/apache/paimon-rust/stargazers)
 
 
 - [Contributors](https://github.com/apache/paimon-rust/graphs/contributors)
