@@ -6,7 +6,7 @@ Distributed transactional key-value database, originally created to complement [
 - [Contributors](https://github.com/tikv/tikv/graphs/contributors)
 - [Open Issues](https://github.com/tikv/tikv/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/tikv/tikv/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v8.5.1](https://github.com/tikv/tikv/releases/tag/v8.5.1) at 2025-01-17T07:29:44Z
+- Latest Release: [v6.5.12](https://github.com/tikv/tikv/releases/tag/v6.5.12) at 2025-02-27T11:31:27Z
 
-- Stars: [15562](https://github.com/tikv/tikv/stargazers)
+- Stars: [15569](https://github.com/tikv/tikv/stargazers)
 
