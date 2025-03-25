@@ -6,7 +6,7 @@ A Postgres-compatible SQL database engineered to provide the simplest and most c
 - [Contributors](https://github.com/risingwavelabs/risingwave/graphs/contributors)
 - [Open Issues](https://github.com/risingwavelabs/risingwave/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/risingwavelabs/risingwave/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v2.2.3](https://github.com/risingwavelabs/risingwave/releases/tag/v2.2.3) at 2025-03-13T06:31:13Z
+- Latest Release: [v2.2.4](https://github.com/risingwavelabs/risingwave/releases/tag/v2.2.4) at 2025-03-25T00:38:19Z
 
-- Stars: [7572](https://github.com/risingwavelabs/risingwave/stargazers)
+- Stars: [7578](https://github.com/risingwavelabs/risingwave/stargazers)
 
