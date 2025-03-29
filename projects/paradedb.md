@@ -8,5 +8,5 @@ An Elasticsearch alternative built on Postgres.
 - [Open Pull Requests](https://github.com/paradedb/paradedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v0.15.11](https://github.com/paradedb/paradedb/releases/tag/v0.15.11) at 2025-03-25T18:37:42Z
 
-- Stars: [6912](https://github.com/paradedb/paradedb/stargazers)
+- Stars: [6913](https://github.com/paradedb/paradedb/stargazers)
 
