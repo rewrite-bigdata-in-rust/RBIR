@@ -8,5 +8,5 @@ A Postgres-compatible SQL database engineered to provide the simplest and most c
 - [Open Pull Requests](https://github.com/risingwavelabs/risingwave/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v2.3.0](https://github.com/risingwavelabs/risingwave/releases/tag/v2.3.0) at 2025-04-14T05:42:35Z
 
-- Stars: [7645](https://github.com/risingwavelabs/risingwave/stargazers)
+- Stars: [7650](https://github.com/risingwavelabs/risingwave/stargazers)
 
