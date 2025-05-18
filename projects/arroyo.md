@@ -8,5 +8,5 @@ A distributed stream processing engine written in Rust, designed to efficiently 
 - [Open Pull Requests](https://github.com/ArroyoSystems/arroyo/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v0.14.0](https://github.com/ArroyoSystems/arroyo/releases/tag/v0.14.0) at 2025-03-26T15:37:31Z
 
-- Stars: [4334](https://github.com/ArroyoSystems/arroyo/stargazers)
+- Stars: [4335](https://github.com/ArroyoSystems/arroyo/stargazers)
 
