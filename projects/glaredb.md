@@ -8,5 +8,5 @@ An analytics DBMS for distributed data.
 - [Open Pull Requests](https://github.com/GlareDB/glaredb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v25.5.11](https://github.com/GlareDB/glaredb/releases/tag/v25.5.11) at 2025-05-24T23:56:55Z
 
-- Stars: [828](https://github.com/GlareDB/glaredb/stargazers)
+- Stars: [830](https://github.com/GlareDB/glaredb/stargazers)
 
