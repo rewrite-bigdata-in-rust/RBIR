@@ -4,8 +4,8 @@ A unified data access layer, empowering users to seamlessly and efficiently retr
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Latest Release: [v0.53.2](https://github.com/apache/opendal/releases/tag/v0.53.2) at 2025-05-13T09:31:43Z
-- Stars: [4131](https://github.com/apache/opendal/stargazers)
+- Latest Release: [v0.53.3](https://github.com/apache/opendal/releases/tag/v0.53.3) at 2025-05-27T06:56:20Z
+- Stars: [4132](https://github.com/apache/opendal/stargazers)
 
 
 - [Contributors](https://github.com/apache/opendal/graphs/contributors)
