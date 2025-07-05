@@ -5,7 +5,7 @@ Rust implementation of [Apache Iceberg](https://iceberg.apache.org/)
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
 - Latest Release: [v0.5.1](https://github.com/apache/iceberg-rust/releases/tag/v0.5.1) at 2025-06-05T05:18:13Z
-- Stars: [1000](https://github.com/apache/iceberg-rust//stargazers)
+- Stars: [1003](https://github.com/apache/iceberg-rust//stargazers)
 
 
 - [Contributors](https://github.com/apache/iceberg-rust//graphs/contributors)
