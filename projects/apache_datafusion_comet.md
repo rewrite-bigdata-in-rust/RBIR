@@ -6,5 +6,5 @@ A high-performance accelerator for [Apache Spark](https://spark.apache.org/), bu
 - [Contributors](https://github.com/apache/datafusion-comet/graphs/contributors)
 - [Open Issues](https://github.com/apache/datafusion-comet/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/apache/datafusion-comet/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Stars: [1017](https://github.com/apache/datafusion-comet/stargazers)
+- Stars: [1019](https://github.com/apache/datafusion-comet/stargazers)
 
