@@ -8,5 +8,5 @@ A distributed query engine for large-scale data processing in Python and is impl
 - [Open Pull Requests](https://github.com/Eventual-Inc/Daft/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v0.6.0](https://github.com/Eventual-Inc/Daft/releases/tag/v0.6.0) at 2025-09-04T04:26:56Z
 
-- Stars: [3454](https://github.com/Eventual-Inc/Daft/stargazers)
+- Stars: [3670](https://github.com/Eventual-Inc/Daft/stargazers)
 
