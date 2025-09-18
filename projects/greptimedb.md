@@ -6,7 +6,7 @@ An open-source, cloud-native, unified time series database for metrics, logs and
 - [Contributors](https://github.com/GreptimeTeam/greptimedb/graphs/contributors)
 - [Open Issues](https://github.com/GreptimeTeam/greptimedb/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/GreptimeTeam/greptimedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v0.17.0](https://github.com/GreptimeTeam/greptimedb/releases/tag/v0.17.0) at 2025-09-03T13:27:21Z
+- Latest Release: [v0.17.1](https://github.com/GreptimeTeam/greptimedb/releases/tag/v0.17.1) at 2025-09-17T08:45:14Z
 
-- Stars: [5532](https://github.com/GreptimeTeam/greptimedb/stargazers)
+- Stars: [5537](https://github.com/GreptimeTeam/greptimedb/stargazers)
 
