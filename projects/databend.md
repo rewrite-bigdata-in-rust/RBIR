@@ -6,7 +6,7 @@ An open-source cloud data warehouse that serves as a cost-effective alternative 
 - [Contributors](https://github.com/datafuselabs/databend/graphs/contributors)
 - [Open Issues](https://github.com/datafuselabs/databend/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/datafuselabs/databend/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v1.2.816-nightly](https://github.com/databendlabs/databend/releases/tag/v1.2.816-nightly) at 2025-09-18T17:15:44Z
+- Latest Release: [v1.2.815-nightly](https://github.com/databendlabs/databend/releases/tag/v1.2.815-nightly) at 2025-09-18T03:22:56Z
 
-- Stars: [8851](https://github.com/datafuselabs/databend/stargazers)
+- Stars: [8860](https://github.com/datafuselabs/databend/stargazers)
 
