@@ -6,7 +6,7 @@ A distributed query engine for large-scale data processing in Python and is impl
 - [Contributors](https://github.com/Eventual-Inc/Daft/graphs/contributors)
 - [Open Issues](https://github.com/Eventual-Inc/Daft/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/Eventual-Inc/Daft/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v0.6.3](https://github.com/Eventual-Inc/Daft/releases/tag/v0.6.3) at 2025-09-24T23:29:15Z
+- Latest Release: [v0.6.4](https://github.com/Eventual-Inc/Daft/releases/tag/v0.6.4) at 2025-10-01T00:00:39Z
 
-- Stars: [4536](https://github.com/Eventual-Inc/Daft/stargazers)
+- Stars: [4541](https://github.com/Eventual-Inc/Daft/stargazers)
 
