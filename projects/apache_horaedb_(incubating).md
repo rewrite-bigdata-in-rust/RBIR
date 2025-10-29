@@ -8,5 +8,5 @@ A high-performance, distributed, cloud native time-series database.
 - [Open Pull Requests](https://github.com/apache/horaedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v2.1.0](https://github.com/apache/horaedb/releases/tag/v2.1.0) at 2024-11-18T02:31:25Z
 
-- Stars: [2796](https://github.com/apache/horaedb/stargazers)
+- Stars: [2798](https://github.com/apache/horaedb/stargazers)
 
