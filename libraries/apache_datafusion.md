@@ -4,7 +4,7 @@ An extensible query engine written in Rust that uses [Apache Arrow](https://gith
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Stars: [8225](https://github.com/apache/datafusion/stargazers)
+- Stars: [8228](https://github.com/apache/datafusion/stargazers)
 
 
 - [Contributors](https://github.com/apache/datafusion/graphs/contributors)
