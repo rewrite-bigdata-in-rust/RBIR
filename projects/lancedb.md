@@ -8,5 +8,5 @@ An open-source database for vector-search built with persistent storage, which g
 - [Open Pull Requests](https://github.com/lancedb/lancedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [python-v0.30.0-beta.1](https://github.com/lancedb/lancedb/releases/tag/python-v0.30.0-beta.1) at 2026-02-23T18:35:13Z
 
-- Stars: [9073](https://github.com/lancedb/lancedb/stargazers)
+- Stars: [9097](https://github.com/lancedb/lancedb/stargazers)
 
