@@ -6,7 +6,7 @@ An Elasticsearch alternative built on Postgres.
 - [Contributors](https://github.com/paradedb/paradedb/graphs/contributors)
 - [Open Issues](https://github.com/paradedb/paradedb/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/paradedb/paradedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v0.21.13](https://github.com/paradedb/paradedb/releases/tag/v0.21.13) at 2026-03-05T20:53:12Z
+- Latest Release: [v0.21.14](https://github.com/paradedb/paradedb/releases/tag/v0.21.14) at 2026-03-11T22:19:47Z
 
-- Stars: [8513](https://github.com/paradedb/paradedb/stargazers)
+- Stars: [8515](https://github.com/paradedb/paradedb/stargazers)
 
