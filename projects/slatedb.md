@@ -6,7 +6,7 @@ A cloud native embedded storage engine built on object storage.
 - [Contributors](https://github.com/slatedb/slatedb/graphs/contributors)
 - [Open Issues](https://github.com/slatedb/slatedb/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/slatedb/slatedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v0.11.1](https://github.com/slatedb/slatedb/releases/tag/v0.11.1) at 2026-03-04T19:48:18Z
+- Latest Release: [v0.11.2](https://github.com/slatedb/slatedb/releases/tag/v0.11.2) at 2026-03-17T15:05:55Z
 
-- Stars: [2772](https://github.com/slatedb/slatedb/stargazers)
+- Stars: [2774](https://github.com/slatedb/slatedb/stargazers)
 
