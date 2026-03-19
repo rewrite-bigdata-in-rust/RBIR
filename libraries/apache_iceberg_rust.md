@@ -4,8 +4,8 @@ Rust implementation of [Apache Iceberg](https://iceberg.apache.org/)
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Latest Release: [v0.8.0](https://github.com/apache/iceberg-rust/releases/tag/v0.8.0) at 2026-01-16T15:49:18Z
-- Stars: [1243](https://github.com/apache/iceberg-rust//stargazers)
+- Latest Release: [v0.9.0](https://github.com/apache/iceberg-rust/releases/tag/v0.9.0) at 2026-03-18T19:23:47Z
+- Stars: [1242](https://github.com/apache/iceberg-rust//stargazers)
 
 
 - [Contributors](https://github.com/apache/iceberg-rust//graphs/contributors)
