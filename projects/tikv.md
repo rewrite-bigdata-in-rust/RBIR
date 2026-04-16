@@ -8,5 +8,5 @@ Distributed transactional key-value database, originally created to complement [
 - [Open Pull Requests](https://github.com/tikv/tikv/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v8.5.6](https://github.com/tikv/tikv/releases/tag/v8.5.6) at 2026-04-14T09:22:47Z
 
-- Stars: [16632](https://github.com/tikv/tikv/stargazers)
+- Stars: [16634](https://github.com/tikv/tikv/stargazers)
 
