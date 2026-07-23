@@ -8,5 +8,5 @@ An open-source, cloud-native, unified time series database for metrics, logs and
 - [Open Pull Requests](https://github.com/GreptimeTeam/greptimedb/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v1.1.3](https://github.com/GreptimeTeam/greptimedb/releases/tag/v1.1.3) at 2026-07-17T03:46:53Z
 
-- Stars: [6488](https://github.com/GreptimeTeam/greptimedb/stargazers)
+- Stars: [6491](https://github.com/GreptimeTeam/greptimedb/stargazers)
 
