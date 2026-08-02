@@ -4,7 +4,7 @@ Rust implementation of [Apache Paimon](https://paimon.apache.org/)
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Latest Release: [bindings/go/v0.3.0](https://github.com/apache/paimon-rust/releases/tag/bindings/go/v0.3.0) at 2026-07-27T12:11:52Z
+- Latest Release: [v0.3.0](https://github.com/apache/paimon-rust/releases/tag/v0.3.0) at 2026-08-01T03:25:06Z
 - Stars: [188](https://github.com/apache/paimon-rust/stargazers)
 
 
