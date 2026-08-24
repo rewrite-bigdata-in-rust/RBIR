@@ -8,5 +8,5 @@ A high-performance accelerator for [Apache Spark](https://spark.apache.org/), bu
 - [Open Pull Requests](https://github.com/apache/datafusion-comet/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [1.0.0](https://github.com/apache/datafusion-comet/releases/tag/1.0.0) at 2026-08-07T20:11:52Z
 
-- Stars: [1255](https://github.com/apache/datafusion-comet/stargazers)
+- Stars: [1256](https://github.com/apache/datafusion-comet/stargazers)
 
