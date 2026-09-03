@@ -5,7 +5,7 @@ Rust implementation of [Apache Avro](https://avro.apache.org/)
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
 - Latest Release: [release-1.12.2](https://github.com/apache/avro/releases/tag/release-1.12.2) at 2026-08-23T12:24:24Z
-- Stars: [3302](https://github.com/apache/avro/stargazers)
+- Stars: [3303](https://github.com/apache/avro/stargazers)
 
 
 - [Contributors](https://github.com/apache/avro/graphs/contributors)
