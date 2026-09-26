@@ -8,5 +8,5 @@ Cloud-native search engine for observability. An open-source alternative to [Dat
 - [Open Pull Requests](https://github.com/quickwit-oss/quickwit/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v0.9.1](https://github.com/quickwit-oss/quickwit/releases/tag/v0.9.1) at 2026-09-23T16:31:05Z
 
-- Stars: [11674](https://github.com/quickwit-oss/quickwit/stargazers)
+- Stars: [11676](https://github.com/quickwit-oss/quickwit/stargazers)
 
