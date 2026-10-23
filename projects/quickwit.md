@@ -6,7 +6,7 @@ Cloud-native search engine for observability. An open-source alternative to [Dat
 - [Contributors](https://github.com/quickwit-oss/quickwit/graphs/contributors)
 - [Open Issues](https://github.com/quickwit-oss/quickwit/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
 - [Open Pull Requests](https://github.com/quickwit-oss/quickwit/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
-- Latest Release: [v0.9.2](https://github.com/quickwit-oss/quickwit/releases/tag/v0.9.2) at 2026-10-16T16:56:19Z
+- Latest Release: [v0.9.3](https://github.com/quickwit-oss/quickwit/releases/tag/v0.9.3) at 2026-10-22T19:13:39Z
 
-- Stars: [11734](https://github.com/quickwit-oss/quickwit/stargazers)
+- Stars: [11735](https://github.com/quickwit-oss/quickwit/stargazers)
 
