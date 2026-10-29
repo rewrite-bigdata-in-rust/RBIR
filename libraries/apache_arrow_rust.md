@@ -4,8 +4,8 @@ Native Rust implementation of [Apache Arrow](https://github.com/apache/arrow)
 
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
-- Latest Release: [57.3.2](https://github.com/apache/arrow-rs/releases/tag/57.3.2) at 2026-10-26T10:03:31Z
-- Stars: [3648](https://github.com/apache/arrow-rs/stargazers)
+- Latest Release: [60.1.0](https://github.com/apache/arrow-rs/releases/tag/60.1.0) at 2026-10-28T08:41:38Z
+- Stars: [3650](https://github.com/apache/arrow-rs/stargazers)
 
 
 - [Contributors](https://github.com/apache/arrow-rs/graphs/contributors)
