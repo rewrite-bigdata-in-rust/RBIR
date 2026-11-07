@@ -5,7 +5,7 @@ Rust implementation of [Apache Hudi](https://hudi.apache.org/)
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
 - Latest Release: [release-0.6.0](https://github.com/apache/hudi-rs/releases/tag/release-0.6.0) at 2026-11-03T08:52:54Z
-- Stars: [283](https://github.com/apache/hudi-rs/stargazers)
+- Stars: [282](https://github.com/apache/hudi-rs/stargazers)
 
 
 - [Contributors](https://github.com/apache/hudi-rs/graphs/contributors)
