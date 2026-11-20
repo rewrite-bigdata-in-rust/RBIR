@@ -5,7 +5,7 @@ Rust implementation of [Apache Parquet](https://parquet.apache.org/)
 
 - License: [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)
 - Latest Release: [57.3.3](https://github.com/apache/arrow-rs/releases/tag/57.3.3) at 2026-11-17T11:45:00Z
-- Stars: [3674](https://github.com/apache/arrow-rs/stargazers)
+- Stars: [3675](https://github.com/apache/arrow-rs/stargazers)
 
 
 - [Contributors](https://github.com/apache/arrow-rs/graphs/contributors)
