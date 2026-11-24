@@ -8,5 +8,5 @@ The Blaze accelerator for Apache Spark leverages native vectorized execution to 
 - [Open Pull Requests](https://github.com/kwai/blaze/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aopen)
 - Latest Release: [v9.0.0](https://github.com/apache/auron/releases/tag/v9.0.0) at 2026-11-19T03:44:34Z
 
-- Stars: [1849](https://github.com/kwai/blaze/stargazers)
+- Stars: [1850](https://github.com/kwai/blaze/stargazers)
 
